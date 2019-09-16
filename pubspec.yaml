@@ -1,0 +1,32 @@
+name: flutter_homework
+description: A new Flutter application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+
+  font_awesome_flutter: ^8.0.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  font_awesome_flutter: ^8.0.1
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: fanxinshu
+      fonts:
+        - asset: font/fanxinshu.TTF
+
+
+  assets:
+    - img/login_logo.png
+    - img/dark-logo.png
+    - img/squat-good-form.jpg
+    - img/form-heels-up.jpg
+    - img/form-feet-elevated.jpg
